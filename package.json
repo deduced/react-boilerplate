@@ -4,6 +4,7 @@
   "description": "Boilerplate for new React projects. ",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/deduced/react-boilerplate#readme",
   "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
     "prettier": "^2.0.5"
   }
 }
