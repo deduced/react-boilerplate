@@ -1,0 +1,19 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for new React projects. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deduced/react-boilerplate.git"
+  },
+  "author": "charlie@deduced.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deduced/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/deduced/react-boilerplate#readme"
+}
