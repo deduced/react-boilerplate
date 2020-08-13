@@ -4,6 +4,7 @@
   "description": "Boilerplate for new React projects. ",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +22,7 @@
   "devDependencies": {
     "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
+    "parcel-bundler": "^1.12.4",
     "prettier": "^2.0.5"
   }
 }
