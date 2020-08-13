@@ -24,6 +24,10 @@
   },
   "homepage": "https://github.com/deduced/react-boilerplate#readme",
   "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
