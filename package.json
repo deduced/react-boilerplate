@@ -8,6 +8,7 @@
     "clear:build-cache": "rm -rf .cache/ dist/",
     "dev": "parcel src/index.html --open",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "lint:fix": "npm run lint -- --fix",
     "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
     "format:check": "prettier --list-different \"src/**/*.{js,jsx,css,json}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
