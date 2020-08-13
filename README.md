@@ -36,3 +36,4 @@ If you are just learning React, you should instead [follow React's recommendatio
 - [Storybook](https://www.learnstorybook.com/) -- install if you want to build UI elements in isolation;
 - [Gatsby](https://www.gatsbyjs.com/) -- blazing fast framework for building static websites. Built with React.
 - [Next.js](https://nextjs.org/) -- excellent framework for building static and server-rendered applications. Built with React.
+- [Typescript](https://www.typescriptlang.org/) - typed JavaScript
