@@ -26,6 +26,12 @@
     "node": true
   },
   "settings": {
+    "import/resolver": {
+      "babel-module": {
+        "assets": "./src/assets",
+        "utils": "./src/utils"
+      }
+    },
     "react": {
       "version": "detect"
     }
