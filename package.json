@@ -7,10 +7,10 @@
     "build": "parcel build src/index.html",
     "clear:build-cache": "rm -rf .cache/ dist/",
     "dev": "parcel src/index.html --open",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "lint:fix": "npm run lint -- --fix",
     "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
     "format:check": "prettier --list-different \"src/**/*.{js,jsx,css,json}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "lint:fix": "npm run lint -- --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,13 +25,14 @@
   "homepage": "https://github.com/deduced/react-boilerplate#readme",
   "devDependencies": {
     "@babel/core": "^7.11.1",
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "@testing-library/react": "^10.4.8",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-module-resolver": "^4.0.0",
     "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-babel-module": "^5.1.2",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.6",
