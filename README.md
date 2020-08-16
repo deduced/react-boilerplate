@@ -39,3 +39,8 @@ If you are just learning React, you should instead [follow React's recommendatio
 - [Next.js](https://nextjs.org/) -- excellent framework for building static and server-rendered applications. Built with React.
 - [Typescript](https://www.typescriptlang.org/) - typed JavaScript
 - [Babel Plugin - Inline React SVG](https://www.npmjs.com/package/babel-plugin-inline-react-svg) - transform SVG files to React components
+
+## Getting Started
+
+- `npm install`
+- `npm run dev`
