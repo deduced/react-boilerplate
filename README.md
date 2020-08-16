@@ -38,3 +38,4 @@ If you are just learning React, you should instead [follow React's recommendatio
 - [Gatsby](https://www.gatsbyjs.com/) -- blazing fast framework for building static websites. Built with React.
 - [Next.js](https://nextjs.org/) -- excellent framework for building static and server-rendered applications. Built with React.
 - [Typescript](https://www.typescriptlang.org/) - typed JavaScript
+- [Babel Plugin - Inline React SVG](https://www.npmjs.com/package/babel-plugin-inline-react-svg) - transform SVG files to React components
