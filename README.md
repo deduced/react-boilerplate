@@ -19,6 +19,7 @@ If you are just learning React, you should instead [follow React's recommendatio
 - Oriented towards use of hooks
 - Accessibility-focused
 - Babel-configuration to avoid verbose relative paths
+- Husky and lint-staged to force linting/prettification before commit
 
 ## Key Libraries
 
