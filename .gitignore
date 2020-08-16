@@ -4,4 +4,6 @@ dist/
 .env
 .DS_Store
 coverage/
+cypress/screenshots
+cypress/videos
 .vscode/
